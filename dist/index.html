@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+		<title>Weather App</title>
+	</head>
+	<body>
+		<div id="conteiner">
+			<img
+				id="weatherimg"
+				src=""
+				alt=""
+			/>
+			<div id="celcius"></div>
+			<div id="cityinfo"></div>
+			<div>
+				<input
+					id="citydata"
+					type="text"
+				/>
+				<div id="error"></div>
+			</div>
+			<div id="bottominfo">
+				<div class="bottomgroup">
+					<img src="heat.png" />
+					<div>
+						<div class="lt">Feels like</div>
+						<div id="feels"></div>
+					</div>
+				</div>
+				<div class="bottomgroup">
+					<img src="raining.png" />
+					<div>
+						<div class="lt">Precipitation</div>
+						<div id="prep"></div>
+					</div>
+				</div>
+				<div class="bottomgroup">
+					<img src="humidity.png" />
+					<div>
+						<div class="lt">Humidity</div>
+						<div id="hum"></div>
+					</div>
+				</div>
+				<div class="bottomgroup">
+					<img src="wind.png" />
+					<div>
+						<div class="lt">Wind</div>
+						<div id="wind"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="main.js"></script>
+</html>
