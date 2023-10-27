@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 23px;
+}
+
+body {
+	overflow: hidden;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #89cff3;
+}
+
+#conteiner {
+	margin-top: 20vh;
+	gap: 5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+}
+
+#bottominfo {
+	margin-top: 10vh;
+	display: flex;
+	gap: 10vw;
+}
+
+.bottomgroup {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+
+input {
+	padding: 5px;
+	width: 350px;
+	height: 30px;
+}
+
+#error {
+	margin-top: 5px;
+	color: red;
+}
+
+.lt {
+	font-weight: 500;
+	font-size: 25px;
+}
