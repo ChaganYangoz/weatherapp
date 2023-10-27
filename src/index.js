@@ -26,7 +26,8 @@ async function getWeatherinfo(city) {
 	const response = await fetch(
 		'http://api.weatherapi.com/v1/current.json?key=0be880a24392440c85c95053232310&q=' +
 			city +
-			'&aqi=no'
+			'&aqi=no',
+		{ mode: 'corse' }
 	);
 	if (response.status === 400) {
 		throwErrorMsg();
